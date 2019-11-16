@@ -1,0 +1,19 @@
+{
+  "name": "3iogiad",
+  "version": "1.0.0",
+  "description": "3 input driven grid/item web application design",
+  "main": "sketch.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oinksu/3IOGIAD.git"
+  },
+  "author": "Felipe Cristobal Amunategui Rivera",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oinksu/3IOGIAD/issues"
+  },
+  "homepage": "https://github.com/oinksu/3IOGIAD#readme"
+}
