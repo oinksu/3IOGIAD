@@ -1,92 +1,146 @@
+html, body{
+
+    font-family: 'Roboto Mono', monospace;
+}
+
+img{
+    
+    height: 60%;
+    margin-left: 1%;
+
+}
+
+
+
 h1{
     margin: 1%;
 }
 
+
 .headerColums {
-background-color: cornflowerblue;
+background-color: lightsalmon ;
 height: 20%;
 display: grid;
 grid-template-columns: 1fr 1fr;
 grid-template-rows: 1fr;
+border-radius: 10px 10px 0px 0px;
+
 
 }
 
     .menuSide{
-        margin: 1% 1% 1% 1% ;
+        margin: 1% 1% 1% 0% ;
         grid-column: 2;
         justify-content: center;
         align-items: center;
-        background-color: yellow;
+        background-color: lightsalmon;
+
+        
     }
 
         .mnu{
             display: grid;
             grid-template-columns: 1fr 1fr 1fr 1fr;
-            background-color: cornflowerblue;
+            grid-template-rows: 1fr .70fr .10fr;
+            background-color:rgb(194, 189, 189);
             justify-content: center;
             align-items: center;
-            
+            border-radius: 0px 10px 0px 0px; 
             height: 100%;
         }
 
         .menuItem1{
+            color: #00008b;
+            border-color: #00008b;
+            border-style: solid;
+            border-width: 2px;
             width: 80%;
             height: 80%;
             grid-column: 1 ;
-            background-color: lightblue;
+            grid-row: 2;
+            background-color: cornflowerblue;
             border-radius: 10px;
-            justify-content: center;
-            align-items: center;
+
+            
+            
+            text-align: center;
+
+            
+    
         }
         .menuItem2{
+            color: darkblue;
+            border-color: #00008b;
+            border-style: solid;
+            border-width: 2px;
+            grid-row: 2;
             width: 80%;
             height: 80%;
             grid-column: 2 ;
             border-radius: 10px;
-            background-color: lightblue;
+            background-color: #6495ed;
             
-            justify-content: center;
-            align-items: center;
+            text-align: center;
         }
         .menuItem3{
+            color: darkblue;
+            border-color: #00008b;
+            border-style: solid;
+            border-width: 2px;
             width: 80%;
             height: 80%;
             grid-column: 3 ;
+            grid-row: 2;
             border-radius: 10px;
-            background-color:  lightblue;
+            background-color:  cornflowerblue;
             
-            justify-content: center;
-            align-items: center;
+            text-align: center;
         }
         .menuItem4{
+            color: darkblue;
+            border-color: #00008b;
+            border-style: solid;
+            border-width: 2px;
+            grid-row: 2;
             width: 80%;
             height: 80%;
             grid-column: 4 ;
             border-radius: 10px;
 
-            background-color:  lightblue;
+            background-color:  cornflowerblue;
             
-            justify-content: center;
-            align-items: center;
+            
+            text-align: center;
+            
         }
 
     .logoSide{
         margin: 1% 0% 1% 1% ;
-    
+        border-radius: 10px 0px 0px 0px;
         grid-column: 1;
-        background-color: cornflowerblue;
+        grid-template-rows: .60fr;
+        background-color:rgb(194, 189, 189);
+        display: grid;
+        
     }
+
+.logoSide, image{
+        
+        
+    }
+    
 
 .bod {
     display: grid;
-    background-color: cornflowerblue;
+    background-color: lightsalmon;
+    border-radius: 0px 0px 0px 0px;
     height: 70%;
 }
 
     .inputButtonGrid{
         margin: .5% .5% 0% .5%;
         background-color: lightblue;
-        border-radius: 10px 10px 0px 0px;
+        border-radius: 0px 0px 0px 0px;
         display: grid;
         grid-template-rows: 1fr 1fr;
         grid-template-columns: 1fr 1fr 1fr;
@@ -116,6 +170,7 @@ grid-template-rows: 1fr;
     }
 
     .inputButtonBox4{
+
         grid-column: 2;
         grid-row: 2;
         margin: 4% 4% 4% 4%;
@@ -138,8 +193,8 @@ grid-template-rows: 1fr;
 
     .iconBox{
         margin: 0% .5% .5% .5%;
-        border-radius: 0px 0px 10px 10px;
-        background-color: lightblue;
+        border-radius: 0px 0px 0px 0px;
+        background-color: #add8e6;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
@@ -150,21 +205,36 @@ grid-template-rows: 1fr;
         background-color: cornflowerblue;
         grid-column: 1;
         border-radius: 10px;
+        border-style: solid;
+        border-color: darkblue;
+        border-width: 2px;
+        color: darkblue;
     
     }
     .iconBox2{
       
         margin: 7%;
-        background-color: cornflowerblue;
+        background-color: #6495ed;
         grid-column: 2;
         border-radius: 10px;
+        border-style: solid;
+        border-color: darkblue;
+        border-width: 2px;
+        color: darkblue;
     }
     .iconBox3{
       
+        border-style: solid;
+        border-color: darkblue;
+        border-width: 2px;
+        color: darkblue;
         margin: 7%;
         background-color: cornflowerblue;
         grid-column: 3;
         border-radius: 10px;
+
+    
+
     }
     .iconBox4{
      
@@ -172,15 +242,45 @@ grid-template-rows: 1fr;
         background-color: cornflowerblue;
         grid-column: 4;
         border-radius: 10px;
+        border-style: solid;
+        border-color: darkblue;
+        border-width: 2px;
+        color: darkblue;
+
+
+
+        align-content: center;
+        justify-content: center;
+        justify-items: center;
         
     }
     
 
 Footer{
-    background-color: cornflowerblue;
-    
+    background-color: rgb(194, 189, 189);
+    border-radius: 0px 0px 10px 10px;
     height: 10%;
+    display: grid;
 }
 
+ .footerBox{
+    background: cornflowerblue;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: darkblue;
+    border-width: 1px;
+    color: darkblue;
+    
+    text-align: right;
+    margin-right: 2%;
+    margin-left: 2%;
+    padding-right: 1%;
+}
 
+.guy{
+    max-width: 80%;
+    border-radius: 50%;
+   margin-left: 10%;
+   margin-top: 14%
+}
 
