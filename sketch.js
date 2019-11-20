@@ -4,7 +4,7 @@ console.log(bubbles)
 
 function setup() { 
 noCanvas()    
-let myCanvas = createCanvas(865 , 250)
+let myCanvas = createCanvas(390 , 255)
 myCanvas.parent('myCanvas')
     for (let i = 0; i < 100; i++) {
         let x = random(width)
@@ -16,7 +16,7 @@ myCanvas.parent('myCanvas')
 }
 
 function draw() {
-    background(173, 216, 230)
+    background(124, 154, 209)
 
 
     // unicorn.x = mouseX
