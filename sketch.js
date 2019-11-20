@@ -5,6 +5,7 @@ console.log(bubbles)
 function setup() { 
 noCanvas()    
 let myCanvas = createCanvas(390 , 255)
+
 myCanvas.parent('myCanvas')
     for (let i = 0; i < 100; i++) {
         let x = random(width)
@@ -12,6 +13,8 @@ myCanvas.parent('myCanvas')
         let r = random(10, 50)
         bubbles[i] = new Bubble(x + random(), y + random(), random(-7, 600) / r)
     }
+
+
     unicorn = new Bubble(400, 200, 50)
 }
 
